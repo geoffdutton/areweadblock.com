@@ -59,5 +59,37 @@
     }(document, 'script'));
   </script>
   <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='aba85bf128606d0ba0435e4c9f67a02f9ec10d38fb56ce14675fe9e66781dbf4';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+
+  <script type="text/javascript">//<![CDATA[
+  (function() {
+    var configuration = {
+      "token": "3f19bdb756134e633c532545fb6ea38d",
+      "capping": {
+        "limit": 5,
+        "timeout": 24
+      },
+      "entryScript": {
+        "type": "timeout",
+        "timeout": 3000,
+        "capping": {
+          "limit": 5,
+          "timeout": 24
+        }
+      },
+      "exitScript": {
+        "enabled": true
+      },
+      "popUnder": {
+        "enabled": true
+      }
+    };
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+  })();
+  //]]></script>
   </body>
 </html>
