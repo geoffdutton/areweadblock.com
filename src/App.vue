@@ -1,30 +1,24 @@
 <template>
   <div id="app">
       <Header title="Are We Ad Block?"/>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- are we adblock -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-6809672140606258"
            data-ad-slot="9634368559"
            data-ad-format="auto"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+
       <div class="content-container">
           <Content msg="Main Content"/>
           <Sidebar msg="Sidebar"/>
       </div>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
       <!-- are we adblock -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-6809672140606258"
            data-ad-slot="9634368559"
            data-ad-format="auto"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
       <Footer></Footer>
   </div>
 </template>
@@ -43,7 +37,7 @@
         Sidebar,
         Header
       }
-}
+    }
 </script>
 
 <style>
