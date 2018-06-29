@@ -68,6 +68,14 @@
     }
     .adsbygoogle {
         margin: 1rem 0;
-        border: 1px solid grey;
+        padding: 1rem 0;
+    }
+    .adsbygoogle:after {
+        content: "Advertisement";
+        font-size: 10px;
+        text-align: center;
+        color: grey;
+        text-decoration: none;
+        border: none;
     }
 </style>
