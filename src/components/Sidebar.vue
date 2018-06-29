@@ -18,9 +18,6 @@ export default {
 <style scoped>
     aside {
         flex: 0 12rem;
+        padding: 1rem;
     }
-.container {
-    border: 1px solid grey;
-    padding: 1rem;
-}
 </style>

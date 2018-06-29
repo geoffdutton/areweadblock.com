@@ -1,7 +1,5 @@
 <template>
-    <header class="container">
-        <h1>{{ title }}</h1>
-    </header>
+    <header class="container"></header>
 </template>
 
 <script>
@@ -15,8 +13,11 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .container {
-        border: 1px solid grey;
-        padding: 1rem;
+    header {
+        background-repeat: no-repeat;
+        background-image: url(../assets/cover.jpg);
+        background-size: contain;
+        height: 225px;
+        margin-top: 2rem;
     }
 </style>

@@ -15,12 +15,8 @@
 <style scoped>
     footer {
         min-height: 150px;
-    }
-    a {
-        color: #42b983;
-    }
-    .container {
-        border: 1px solid grey;
+        text-align: right;
         padding: 1rem;
+        border-top: 3px solid #e76255;
     }
 </style>

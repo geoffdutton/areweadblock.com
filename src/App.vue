@@ -35,7 +35,7 @@
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        color: #2c3e50;
+        color: rgba(0,0,0,.84);
         margin: 0 auto;
         max-width: 900px;
         display: flex;
@@ -45,5 +45,11 @@
     .content-container {
         display: flex;
         flex: 1;
+    }
+    a {
+        color: #e76255;
+    }
+    h1, h2, h3 {
+        color: #1a4c59;
     }
 </style>

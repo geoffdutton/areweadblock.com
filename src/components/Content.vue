@@ -19,6 +19,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    section {
+        flex: 1;
+        padding: 1rem;
+    }
     h1 {
         font-size: 42px;
     }
@@ -33,20 +37,11 @@ export default {
       display: inline-block;
       margin: 0 10px;
     }
-    a {
-      color: #42b983;
-    }
-    section {
-        flex: 1;
-    }
+
     p {
         font-weight: 400;
         font-style: normal;
         font-size: 21px;
         line-height: 1.58;
-    }
-    .container {
-        border: 1px solid grey;
-        padding: 1rem;
     }
 </style>
