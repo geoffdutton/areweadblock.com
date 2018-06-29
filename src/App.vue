@@ -66,4 +66,8 @@
     h1, h2, h3 {
         color: #1a4c59;
     }
+    .adsbygoogle {
+        margin: 1rem 0;
+        border: 1px solid grey;
+    }
 </style>

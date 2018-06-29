@@ -10,3 +10,8 @@ new Vue({
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+setInterval(() => {
+  ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+}, 45 * 1000)

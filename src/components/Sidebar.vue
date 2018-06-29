@@ -8,6 +8,13 @@
              data-ad-slot="9634368559"
              data-ad-format="auto"></ins>
     </div>
+      <div class="ad">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6809672140606258"
+               data-ad-slot="9634368559"
+               data-ad-format="auto"></ins>
+      </div>
   </aside>
 </template>
 
