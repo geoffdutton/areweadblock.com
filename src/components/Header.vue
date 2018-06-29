@@ -17,7 +17,13 @@
         background-repeat: no-repeat;
         background-image: url(../assets/cover-header.jpg);
         background-size: contain;
-        height: 225px;
-        margin-top: 2rem;
+        min-height: 150px;
     }
+    @media (min-width: 768px) {
+        header {
+            margin-top: 2rem;
+            height: 225px;
+        }
+    }
+
 </style>

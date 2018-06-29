@@ -58,9 +58,18 @@
         flex-direction: column;
     }
     .content-container {
+        flex-direction: column;
         display: flex;
         flex: 1;
+        padding: 0 1rem;
     }
+
+    @media (min-width: 768px) {
+        .content-container {
+            flex-direction: row;
+        }
+    }
+
     a {
         color: #e76255;
     }
@@ -70,6 +79,7 @@
     .adsbygoogle {
         margin: 1rem 0;
         padding: 1rem 0;
+        text-align: center;
     }
     .adsbygoogle:after {
         content: "Advertisement";
