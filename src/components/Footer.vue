@@ -17,6 +17,7 @@
         min-height: 150px;
         text-align: right;
         padding: 1rem;
+        margin-top: 2rem;
         border-top: 3px solid #e76255;
     }
 </style>

@@ -15,3 +15,10 @@ new Vue({
 setInterval(() => {
   (adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 }, 45 * 1000)
+
+;(function () { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script')
+  s.src = 'https://areweadblock.disqus.com/embed.js'
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s)
+})()

@@ -19,6 +19,7 @@
            data-ad-client="ca-pub-6809672140606258"
            data-ad-slot="9634368559"
            data-ad-format="auto"></ins>
+      <div id="disqus_thread"></div>
       <Footer></Footer>
   </div>
 </template>
