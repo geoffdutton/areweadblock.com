@@ -26,7 +26,7 @@
 
 <script>
     import Header from './components/Header'
-    import Content from './components/Content.vue'
+    import Content from './components/Content'
     import Sidebar from './components/Sidebar'
     import Footer from './components/Footer'
 
@@ -40,7 +40,8 @@
       },
       head: {
         meta: [
-          { name: 'og:title', content: 'Are We Ad Block?'}
+          { name: 'og:title', content: 'Are We Ad Block?' },
+          { name: 'og:image', content: require('./assets/cover-header.jpg') }
         ]
       }
     }

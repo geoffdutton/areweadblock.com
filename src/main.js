@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueHead from 'vue-head'
+import VueRouter from 'vue-router'
 import App from './App.vue'
 
 Vue.use(VueHead)
+Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 new Vue({
@@ -14,9 +16,9 @@ new Vue({
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-setInterval(() => {
-  (adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-}, 45 * 1000)
+// setInterval(() => {
+//   (adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+// }, 45 * 1000)
 
 ;(function () { // DON'T EDIT BELOW THIS LINE
   var d = document, s = d.createElement('script')
