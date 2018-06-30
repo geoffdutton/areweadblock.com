@@ -16,12 +16,16 @@ new Vue({
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
 ;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-// setInterval(() => {
-//   (adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-// }, 45 * 1000)
+setInterval(() => {
+  [...document.querySelectorAll('ins > iframe')].forEach(iframe => {
+    try {
+      iframe.contentWindow.location.reload(true)
+    } catch (_) {}
+  })
+}, 45 * 1000)
 
 ;(function () { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script')
+  const d = document, s = d.createElement('script')
   s.src = 'https://areweadblock.disqus.com/embed.js'
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s)
