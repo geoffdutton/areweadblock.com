@@ -37,6 +37,11 @@
         Content,
         Sidebar,
         Header
+      },
+      head: {
+        meta: [
+          { name: 'og:title', content: 'Are We Ad Block?'}
+        ]
       }
     }
 </script>

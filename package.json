@@ -7,11 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-head": "^2.0.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "opengraph-html-webpack-plugin": "^1.0.0",
     "standard": "^11.0.1",
     "vue-template-compiler": "^2.5.16"
   },

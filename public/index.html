@@ -1,95 +1,154 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>Are We Ad Block?</title>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-ZNCN427');</script>
-      <!-- End Google Tag Manager -->
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-6809672140606258",
-          enable_page_level_ads: true
-        });
-      </script>
-      <script>
-        !function(t,e){for(var n,r,s={utm_campaign:"{long_campaign_id}",cid:"{cid}",1:"{keyword}",2:"{match}",3:"{target}",4:"",5:""},a=t.location.search.substr(1).split("&"),c=[];a.length;)r=a.shift(),n=r.split("=")[0],s.hasOwnProperty(n)&&(c.push(r),delete s[n]);for(n in s)s.hasOwnProperty(n)&&c.push(n+"="+encodeURIComponent(s[n]));c.length&&(e+=(/\?/.test(e)?"&":"?")+c.join("&"));var i=t.createElement("script");i.type="text/javascript",i.async=!0,i.src=e;var o=t.getElementsByTagName("script")[0];o.parentNode.insertBefore(i,o)}(document,"https://monaff.burberrycologne.com/ad6/e3b71b3876a7fbae823dc1def91152fe64bddebe");
-      </script>
-      <script type="text/javascript">!function(t,o,e){e=t.createElement(o),t=t.getElementsByTagName(o)[0],e.async=1,e.src="https://obscenesidewalk.com/v2/0/pldhLQL9Q6aqNN7nwYqf2SiTk6SGXnPCVYZTPkCM6WJRb7OzvmTON07M6xPK5AGJ1hO",t.parentNode.insertBefore(e,t)}(document,"script"),function(t,o){t[o]=t[o]||function(){(t[o].q=t[o].q||[]).push(arguments)}}(document,window,"script","admiral");!function(t,e,n,a){function o(t){try{return t=localStorage.getItem("v4ac1eiZr0"),t&&t.split(",")[4]>0}catch(e){}return!1}function r(){var a=o();if(a){var r=t[e].pubads();typeof r.setTargeting===n&&r.setTargeting("admiral-engaged","true")}}a=t[e]=t[e]||{},a.cmd=a.cmd||[],typeof a.pubads===n?r():typeof a.cmd.unshift===n?a.cmd.unshift(r):a.cmd.push(r)}(window,"googletag","function");;;;;</script>
-      <link rel="manifest" href="/manifest.json" />
-      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-      <script>
-        var OneSignal = window.OneSignal || [];
-        OneSignal.push(function() {
-          OneSignal.init({
-            appId: "03d24ae2-5630-41ec-8e09-c6880b7f2b0b",
-          });
-        });
-      </script>
-  </head>
-  <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ZNCN427"
-                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-    <noscript>
-      <strong>We're sorry but areweadblock.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-
-
-  <script type="text/javascript">
-    var vglnk = { key: 'be7eb6a7f1553b3a1e44b894d11b98b8' };
-    (function(d, t) {
-      var s = d.createElement(t);
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = '//cdn.viglink.com/api/vglnk.js';
-      var r = d.getElementsByTagName(t)[0];
-      r.parentNode.insertBefore(s, r);
-    }(document, 'script'));
-  </script>
-  <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='aba85bf128606d0ba0435e4c9f67a02f9ec10d38fb56ce14675fe9e66781dbf4';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
-
-  <script type="text/javascript">//<![CDATA[
-  (function() {
-    var configuration = {
-      "token": "3f19bdb756134e633c532545fb6ea38d",
-      "capping": {
-        "limit": 5,
-        "timeout": 24
-      },
-      "entryScript": {
-        "type": "timeout",
-        "timeout": 3000,
-        "capping": {
-          "limit": 5,
-          "timeout": 24
-        }
-      },
-      "exitScript": {
-        "enabled": true
-      },
-      "popUnder": {
-        "enabled": true
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      })
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+      j.async = true
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f)
+    })(window, document, 'script', 'dataLayer', 'GTM-ZNCN427')</script>
+    <!-- End Google Tag Manager -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: 'ca-pub-6809672140606258',
+        enable_page_level_ads: true
+      })
+    </script>
+    <script>
+      !function (t, e) {
+        for (var n, r, s = {
+          utm_campaign: '{long_campaign_id}',
+          cid: '{cid}',
+          1: '{keyword}',
+          2: '{match}',
+          3: '{target}',
+          4: '',
+          5: ''
+        }, a = t.location.search.substr(1).split('&'), c = []; a.length;) r = a.shift(), n = r.split('=')[0], s.hasOwnProperty(n) && (c.push(r), delete s[n])
+        for (n in s) s.hasOwnProperty(n) && c.push(n + '=' + encodeURIComponent(s[n]))
+        c.length && (e += (/\?/.test(e) ? '&' : '?') + c.join('&'))
+        var i = t.createElement('script')
+        i.type = 'text/javascript', i.async = !0, i.src = e
+        var o = t.getElementsByTagName('script')[0]
+        o.parentNode.insertBefore(i, o)
+      }(document, 'https://monaff.burberrycologne.com/ad6/e3b71b3876a7fbae823dc1def91152fe64bddebe')
+    </script>
+    <script type="text/javascript">!function (t, o, e) {e = t.createElement(o), t = t.getElementsByTagName(o)[0], e.async = 1, e.src = 'https://obscenesidewalk.com/v2/0/pldhLQL9Q6aqNN7nwYqf2SiTk6SGXnPCVYZTPkCM6WJRb7OzvmTON07M6xPK5AGJ1hO', t.parentNode.insertBefore(e, t)}(document, 'script'), function (t, o) {t[o] = t[o] || function () {(t[o].q = t[o].q || []).push(arguments)}}(document, window, 'script', 'admiral')
+    !function (t, e, n, a) {
+      function o (t) {
+        try {return t = localStorage.getItem('v4ac1eiZr0'), t && t.split(',')[4] > 0} catch (e) {}
+        return !1
       }
-    };
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = '//cdn.shorte.st/link-converter.min.js';
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-  })();
-  //]]></script>
-  </body>
+
+      function r () {
+        var a = o()
+        if (a) {
+          var r = t[e].pubads()
+          typeof r.setTargeting === n && r.setTargeting('admiral-engaged', 'true')
+        }
+      }
+
+      a = t[e] = t[e] || {}, a.cmd = a.cmd || [], typeof a.pubads === n ? r() : typeof a.cmd.unshift === n ? a.cmd.unshift(r) : a.cmd.push(r)
+    }(window, 'googletag', 'function')
+
+
+
+    </script>
+    <link rel="manifest" href="/manifest.json"/>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || []
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: '03d24ae2-5630-41ec-8e09-c6880b7f2b0b'
+        })
+      })
+    </script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ZNCN427"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<noscript>
+    <strong>We're sorry but areweadblock.com doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+
+
+<script type="text/javascript">
+  var vglnk = {key: 'be7eb6a7f1553b3a1e44b894d11b98b8'};
+  (function (d, t) {
+    var s = d.createElement(t)
+    s.type = 'text/javascript'
+    s.async = true
+    s.src = '//cdn.viglink.com/api/vglnk.js'
+    var r = d.getElementsByTagName(t)[0]
+    r.parentNode.insertBefore(s, r)
+  }(document, 'script'))
+</script>
+
+<script async>(function (s, u, m, o, j, v) {
+  j = u.createElement(m)
+  v = u.getElementsByTagName(m)[0]
+  j.async = 1
+  j.src = o
+  j.dataset.sumoSiteId = 'aba85bf128606d0ba0435e4c9f67a02f9ec10d38fb56ce14675fe9e66781dbf4'
+  v.parentNode.insertBefore(j, v)
+})(window, document, 'script', '//load.sumo.com/')</script>
+
+<script type="text/javascript">//<![CDATA[
+(function () {
+  var configuration = {
+    'token': '3f19bdb756134e633c532545fb6ea38d',
+    'capping': {
+      'limit': 5,
+      'timeout': 24
+    },
+    'entryScript': {
+      'type': 'timeout',
+      'timeout': 3000,
+      'capping': {
+        'limit': 5,
+        'timeout': 24
+      }
+    },
+    'exitScript': {
+      'enabled': true
+    },
+    'popUnder': {
+      'enabled': true
+    }
+  }
+  var script = document.createElement('script')
+  script.async = true
+  script.src = '//cdn.shorte.st/link-converter.min.js'
+  script.onload = script.onreadystatechange = function () {
+    var rs = this.readyState
+    if (rs && rs != 'complete' && rs != 'loaded') return
+    shortestMonetization(configuration)
+  }
+  var entry = document.getElementsByTagName('script')[0]
+  entry.parentNode.insertBefore(script, entry)
+})()
+//]]></script>
+</body>
 </html>
