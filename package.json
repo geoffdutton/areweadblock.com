@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "vue-head": "^2.0.12"
+    "vue-head": "^2.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
