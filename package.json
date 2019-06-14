@@ -11,8 +11,8 @@
     "vue-head": "^2.1.1"
   },
   "devDependencies": {
+    "@vue/cli-service": "^3.8.3",
     "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-service": "^3.0.0-rc.3",
     "opengraph-html-webpack-plugin": "^1.0.0",
     "standard": "^11.0.1",
     "vue-router": "^3.0.6",
