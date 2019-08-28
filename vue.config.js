@@ -38,12 +38,14 @@ class OpengraphHtmlWebpackPlugin {
   }
 }
 
+const addPlusSignIfPositive = n => n > 0 ? `+${n}` : n
+
 const now = JSON.stringify(((d) => {
   const offset = d.getTimezoneOffset() / 60 * -1
   if (offset === 0) {
     return d.toLocaleString() + ' UTC'
   }
-  return d.toLocaleString() + ' ' + (d.getTimezoneOffset() / 60 * -1) + 'hrs'
+  return d.toLocaleString() + ' ' + addPlusSignIfPositive(d.getTimezoneOffset() / 60 * -1) + ':00'
 })(new Date()))
 
 module.exports = {
