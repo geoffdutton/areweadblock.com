@@ -5,18 +5,19 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "standard --fix"
+    "lint": "standard --parser babel-eslint --fix"
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "vue-head": "^2.1.1"
+    "vue-head": "^2.1.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-service": "^3.8.3",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.3",
     "opengraph-html-webpack-plugin": "^1.0.0",
     "standard": "^14.0.2",
-    "vue-router": "^3.0.6",
+    "vue-router": "^3.1.2",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {

@@ -51,8 +51,8 @@ const now = JSON.stringify(((d) => {
 module.exports = {
   chainWebpack: (config) => {
     config.plugin('define').tap((definitions) => {
-      definitions[0]['process.env']['PACKAGE_VERSION'] = JSON.stringify(require('./package.json').version)
-      definitions[0]['process.env']['BUILD_TIME'] = now
+      definitions[0]['process.env'].PACKAGE_VERSION = JSON.stringify(require('./package.json').version)
+      definitions[0]['process.env'].BUILD_TIME = now
       return definitions
     })
   },
