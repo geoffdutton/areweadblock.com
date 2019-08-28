@@ -11,11 +11,13 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
-;(adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+window.adsbygoogle = window.adsbygoogle || []
+;((times) => {
+  while (times--) {
+    (window.adsbygoogle = window.adsbygoogle || []).push({}) // eslint-disable-line
+  }
+})(5)
+
 setInterval(() => {
   [...document.querySelectorAll('ins > iframe')].forEach(iframe => {
     try {
