@@ -39,6 +39,10 @@ class OpengraphHtmlWebpackPlugin {
 }
 
 const now = JSON.stringify(((d) => {
+  const offset = d.getTimezoneOffset() / 60 * -1
+  if (offset === 0) {
+    return d.toLocaleString() + ' UTC'
+  }
   return d.toLocaleString() + ' ' + (d.getTimezoneOffset() / 60 * -1) + 'hrs'
 })(new Date()))
 
