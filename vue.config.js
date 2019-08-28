@@ -38,7 +38,18 @@ class OpengraphHtmlWebpackPlugin {
   }
 }
 
+const now = JSON.stringify(((d) => {
+  return d.toLocaleString() + ' ' + (d.getTimezoneOffset() / 60 * -1) + 'hrs'
+})(new Date()))
+
 module.exports = {
+  chainWebpack: (config) => {
+    config.plugin('define').tap((definitions) => {
+      definitions[0]['process.env']['PACKAGE_VERSION'] = JSON.stringify(require('./package.json').version)
+      definitions[0]['process.env']['BUILD_TIME'] = now
+      return definitions
+    })
+  },
   configureWebpack: {
     mode: 'development',
     plugins: [
