@@ -1,4 +1,3 @@
-const loaderUtils = require('loader-utils')
 
 const format = (item) => {
   if (item.lang) {
@@ -25,7 +24,6 @@ class OpengraphHtmlWebpackPlugin {
           htmlPluginData.html = htmlPluginData.html.replace('</head>', filesToInclude + '\n</head>')
           callback(null, htmlPluginData)
         })
-
       })
     } else {
       // Webpack 1-3 Plugin System
@@ -47,7 +45,7 @@ module.exports = {
       new OpengraphHtmlWebpackPlugin([
         { property: 'og:title', content: 'Are We Ad Block?' },
         { property: 'og:description', content: 'A dummy site with a bunch of ads and other annoying scripts' },
-        { property: 'og:site_name', content: 'areweadblock.com' },
+        { property: 'og:site_name', content: 'areweadblock.com' }
         // { property: 'og:image', url: true, content: './src/assets/cover-header.jpg' }
       ])
     ]

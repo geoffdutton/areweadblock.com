@@ -25,7 +25,7 @@ setInterval(() => {
 }, 45 * 1000)
 
 ;(function () { // DON'T EDIT BELOW THIS LINE
-  const d = document, s = d.createElement('script')
+  const d = document; const s = d.createElement('script')
   s.src = 'https://areweadblock.disqus.com/embed.js'
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s)
